@@ -1,4 +1,5 @@
-﻿$usuarios= Get-LocalUser
+﻿#Editado por Daniel Diaz Viruega el 19/08/2025
+$usuarios= Get-LocalUser
 $sinLogon=@()
 $conLogon=@()
 foreach ($u in $usuarios){
